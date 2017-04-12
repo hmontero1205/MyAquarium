@@ -1,0 +1,120 @@
+div.hometop
+{
+	font:bold 25pt arial;
+	text-align:center;
+	
+}
+div.subtop
+{
+	font:italic 8pt arial;
+	text-align:center;
+	text-decoration:initial;
+}
+p
+{
+	border:3px solid teal;
+}
+div.bdy
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	
+	z-index: -1;
+}		
+img.back
+{
+	height:100%;
+	width:100%;
+	bottom:0px;
+	float:right;
+	opacity:.4;
+}
+
+a
+{
+	color:blue;
+}
+a.home
+{
+	position:relative;
+	bottom:61px;
+	font-size:15pt;
+}
+h1
+{
+	text-align:center;
+	position:relative;
+	bottom:60px;
+	font-size:30pt;
+	text-align:center;
+}
+h1 img
+{
+	border:5px solid teal;
+}
+.title
+{
+	font-size:20pt;
+	text-decoration:underline;
+}
+.subt
+{
+	font-size:16pt;
+	font-style:italic;
+}
+hr
+{
+	border-color:teal;
+}
+h3
+{
+	font-size:18pt;
+	text-align:center;
+}
+button
+{
+	font-size:12pt;
+	background-color:skyblue;
+	border-color:teal;
+	color:black;
+}
+button:hover
+{
+	background-color:teal;
+	border-color:black;
+	color:white;
+}
+.organism
+{
+	font-size:20pt;
+	text-decoration:underline;
+	text-align:center;
+}
+
+div.container
+{
+	font-size:15pt;
+	border:5px solid black;
+	background-color:lightgray;
+	display:inline-block;
+	
+}
+h3
+{
+	text-align:center;
+}
+
+.species
+{
+	border:5px solid teal;
+}
+
+.italic
+{
+	font-style:italic;
+}
+
+

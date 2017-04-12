@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<!--Hans Montero-->
+<html>
+	<head>
+		<title>MyTropical Fish Tank</title>
+		<style> 
+			body{
+				background-color: skyblue;
+			}
+			div.hometop
+			{
+				font:bold 25pt arial;
+				text-align:center;
+				
+			}
+			div.subtop
+			{
+				font:italic 8pt arial;
+				text-align:center;
+				text-decoration:initial;
+			}
+			p
+			{
+				border:3px solid teal;
+			}
+
+			.info{
+				font-style: italic;
+				font-size: 15pt;
+				margin-top:10px;
+			}
+			form{
+				position: absolute;
+				text-align:center;
+				bottom:10px;
+				margin-left:42%;
+			}
+			a
+			{
+				color:blue;
+			}
+			a.home
+			{
+				position:relative;
+				bottom:61px;
+				font-size:15pt;
+			}
+
+			form{
+				position: relative;
+				left:0px;
+				right:0px;
+				margin-left:0px;
+				bottom:0px;
+				margin-top:10%;
+				text-align:initial;
+			}
+			fieldset{
+				border-color:teal;
+				border-width:4px;
+			}
+			legend{
+				margin-left:0px;
+			}
+			.lcon{
+				text-align:center;
+			}
+		</style>
+		<script> 
+
+		</script>
+	</head>
+	<body>
+		<p class = "head">
+			<div class = "hometop">MyTropical Fish Tank</div>
+			<div class = "subtop">For All Your Tropical Fish Tank Needs...</div>
+		</p><br/>
+		<a class = "home"href="index.html">	
+			<span>Return Home</span>
+		</a>
+		<form method = "post" action = "aquarium.php">
+			<fieldset>
+				<legend>Sign in</legend>
+				<div class="lcon">
+					<div class="info">To enter your own aquarium, please enter your name. Keep in mind, other users may be able to see your fish tank!</div><br/>
+					<input type="text" name="user" placeholder="Enter your name here..."/>
+					<input type="submit"/>
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,176 @@
+div.hometop
+{
+	font:bold 25pt arial;
+	text-align:center;
+	
+}
+div.subtop
+{
+	font:italic 8pt arial;
+	text-align:center;
+	text-decoration:initial;
+}
+p
+{
+	border:3px solid teal;
+}
+div.bdy
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	
+	z-index: -1;
+}		
+img.back
+{
+	height:100%;
+	width:100%;
+	bottom:0px;
+	float:right;
+	opacity:.4;
+}
+
+a
+{
+	color:blue;
+}
+a.home
+{
+	position:relative;
+	bottom:61px;
+	font-size:15pt;
+}
+div.bdy
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	
+	z-index: -1;
+}		
+img.back
+{
+	height:100%;
+	width:100%;
+	bottom:0px;
+	float:right;
+	opacity:.4;
+}
+h1
+{
+	text-align:center;
+	position:relative;
+	bottom:60px;
+	font-size:30pt;
+	text-align:center;
+}
+h1 img
+{
+	border:5px solid teal;
+}
+.title
+{
+	font-size:20pt;
+	text-decoration:underline;
+}
+.subt
+{
+	font-size:16pt;
+	font-style:italic;
+}
+hr
+{
+	border-color:teal;
+}
+
+h3
+{
+	width:100%;
+}
+li
+{
+	width:50%;
+}
+.italics
+{
+	font-style:italic;
+}
+div.question
+{
+	font-size:18pt;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.ibladder,.igreen,.ivacation,.imove,.ibully,.imissing
+{
+	float:right;
+	display:none;
+	width:30%;
+}
+.dbladder:hover~.ibladder
+{
+	display:initial;
+	position:relative;
+	right:50px;
+	bottom:120px;
+	border:5px solid teal;
+}
+.dgreen:hover~.igreen
+{
+	display:initial;
+	position:relative;
+	bottom:180px;
+	right:50px;
+	border:5px solid teal;
+}
+.dvacation:hover~.ivacation
+{
+	display:initial;
+	position:relative;
+	bottom:180px;
+	right:50px;
+	border:5px solid teal;
+}
+.dmove:hover~.imove
+{
+	display:initial;
+	position:relative;
+	bottom:200px;
+	right:50px;
+	border:5px solid teal;
+}
+.dbully:hover~.ibully
+{
+	display:initial;
+	position:relative;
+	bottom:190px;
+	right:50px;
+	border:5px solid teal;
+}
+.dmissing:hover~.imissing
+{
+	display:initial;
+	position:relative;
+	bottom:200px;
+	right:50px;
+	border:5px solid teal;
+}
+div.bottom
+{
+	font-weight:bold;
+	font-style:italic;
+	font-size:20pt;
+	position:relative;
+	bottom:50px;
+	text-align:center;
+}
+li:hover
+{
+	border:5px solid black;
+	background-color:lightgray;
+}

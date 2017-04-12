@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<!--Hans Montero-->
+<html>
+	<head>
+		<title>MyTropical Fish Tank</title>
+		<link type = "text/css" rel = "stylesheet" href = "Gallery.css" />
+		<style>	</style>
+		<script>
+			function initialize()
+			{
+				galleryDisplay = document.getElementById("gallery");
+				descDisplay = document.getElementById("description");
+				gallArr =[ ["images/gal1.jpg","This fish tank features a nice blend of colorful schools of fish, along with vibrant green plants.<br/>In addition to its black background and white gravel, this fish tank is truly an eyecatcher."],
+							["images/gal2.jpg","This fish tank mimicks a valley on dryland.<br/>The plants and moss in this tank replicate grass and trees, providing a beautiful landscape for this school of tetra fish."],
+							["images/gal3.jpg","This large fish tank of around 40 gallons is home to a school of tetra fish.<br/>There is also a nice growth of plants in the tank, where we can find the tank's population hiding."],
+							["images/gal4.jpg","Although small, this fish tank is home to a community of Angelfish.<br/>With their long fins and majestic appearance, these Angelfish bring a great look to the tank."],
+							["images/gal5.jpg","This 60 gallon fish tank owes its beauty to the assortment of pebbles at the bottom. <br/>Several schools of colorful fish make up the population of this tank."],
+							]
+				ctr = 0;	
+				upImg = gallArr[ctr][0];
+				upDesc = gallArr[ctr][1];
+			}
+			
+			function changeImage(modifier)
+			{
+				if(ctr+modifier < 0 || ctr+modifier >4)
+				{
+					display();
+				}
+				else
+				{
+					ctr += modifier;
+					upImg = gallArr[ctr][0];
+					upDesc = gallArr[ctr][1];
+					display();
+				}
+			}
+			
+			function display()
+			{
+				galleryDisplay.src = upImg;
+				descDisplay.innerHTML = upDesc;
+			}
+			
+		</script>
+	</head>
+	<body onload = "initialize();">
+		<p class = "head">
+			<div class = "hometop">MyTropical Fish Tank</div>
+			<div class = "subtop">For All Your Tropical Fish Tank Needs...</div>
+		</p><br/>
+		<a class = "home"href="index.html">	
+			<span>Return Home</span>
+		</a>
+		<h1>Gallery</h1>
+		<h3>
+			<div class="galdiv">
+				<img class="galimg" id="gallery" src="images/gal1.jpg"/>
+			</div>
+			<div class="desc" id="description">
+			This fish tank features a nice blend of colorful schools of fish, along with vibrant green plants.<br/>
+			In addition to its black background and white gravel, this fish tank is truly an eyecatcher.
+			</div>
+		</h3>
+		<div class="buttons">
+			<button class="prev" onclick="changeImage(-1);">Previous Image</button>
+			<button class="next" onclick="changeImage(1);">Next Image</button>
+		</div>
+		
+		<div class= "bdy">
+			<img class="back" src= "images/main_back3.jpg"/>
+		</div>
+	</body>
+</html>
